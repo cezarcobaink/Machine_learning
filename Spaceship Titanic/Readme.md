@@ -1,18 +1,21 @@
-Este repositório contém o código e os arquivos relacionados a "Spaceship Titanic" do Kaggle. O objetivo é prever se os passageiros foram transportados para outra dimensão durante a viagem da Spaceship Titanic.
+# Spaceship Titanic (Kaggle)
 
-# Estrutura do Repositório
+**Objetivo:** prever quais passageiros da nave foram transportados para outra dimensão, a partir de dados como planeta de origem, cabine, idade e gastos a bordo. São 8.693 passageiros no treino.
 
-    - `train.csv`: Conjunto de dados de treinamento.
-    - `test.csv`: Conjunto de dados de teste.
-    - `submission.csv`: Arquivo de submissão gerado pelo modelo.
-    - `SpaceshipTitanic.ipynb`: Jupyter Notebook com o código completo para análise, treinamento e previsão.
+## Solução
 
-# Requisitos
+1. **Valores ausentes:** média para variáveis numéricas e moda para categóricas.
+2. **Codificação:** one-hot encoding das variáveis categóricas.
+3. **Validação:** separação de 20% do treino.
+4. **Modelo:** Random Forest Classifier.
 
-Os seguintes pacotes Python foram necessários:
+**Resultado:** acurácia de **78%** na validação.
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+## O que eu mudaria
+
+A codificação aplicou one-hot também ao ID e ao nome do passageiro, o que cria milhares de colunas sem valor preditivo. A próxima versão vai:
+- extrair o grupo do ID e o deck e o lado da cabine, que têm sinal real;
+- descartar o nome;
+- somar os gastos a bordo em uma variável de consumo total.
+
+**Stack:** Python · pandas · scikit-learn

@@ -1,5 +1,13 @@
-    => KEGGLE COMPETITIONS
-    
-    Aqui você encontra as pastas que contém minhas soluções para várias competições do Kaggle. 
+# Machine Learning — competições do Kaggle
 
-    Para cada competição, há um Jupyter Notebook (`.ipynb`) contendo o código completo para análise, treinamento e previsão. Além disso, cada pasta contém os conjuntos de dados e os arquivos de submissão.
+Soluções de ponta a ponta para competições do Kaggle: tratamento de dados, modelagem, validação e arquivo de submissão.
+
+| Competição | Tipo | Modelo | Resultado na validação |
+|---|---|---|---|
+| [House Prices](Houses) | Regressão | XGBoost | RMSLE de 0,142 |
+| [Playground S4E6](playground) | Classificação multiclasse | Random Forest | Acurácia de 82,8% |
+| [Spaceship Titanic](Spaceship%20Titanic) | Classificação binária | Random Forest | Acurácia de 78% |
+
+Cada pasta tem um notebook com o código completo, os dados da competição e o arquivo `submission.csv`.
+
+Outros projetos em [DataScience](https://github.com/cezarcobaink/DataScience) · Portfólio: [cezarcobaink.github.io/WebSite](https://cezarcobaink.github.io/WebSite/)
