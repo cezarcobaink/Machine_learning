@@ -6,11 +6,12 @@ Projetos de ponta a ponta com dados públicos. Cada pasta traz um notebook execu
 |---|---|---|---|
 | [Churn em telecom](Churn_Telecom) | Classificação + decisão | Regressão logística, gradient boosting, calibração, Kaplan-Meier, curva de lucro | Abordar só quem tem valor esperado positivo quase dobra o lucro da campanha |
 | [NLP em português](NLP_Avaliacoes) | Classificação de texto | TF-IDF, regressão logística, Naive Bayes, divisão temporal, temas por regras | Triagem pega 90% das reclamações revisando só 27% das avaliações; 36% das reclamações são sobre entrega |
+| [Segmentação de clientes](Segmentacao_Clientes) | Clusterização + análise de coortes | RFM, K-means com escolha de k por silhueta e estabilidade, coortes, intervalos de Wilson | 98% compram uma vez só; insatisfeitos e frete pesado voltam um terço menos |
 | [House Prices](Houses) | Regressão (Kaggle) | XGBoost | RMSLE de 0,142 na validação |
 | [Playground S4E6](playground) | Classificação multiclasse (Kaggle) | Random Forest | Acurácia de 82,8% na validação |
 | [Spaceship Titanic](Spaceship%20Titanic) | Classificação binária (Kaggle) | Random Forest | Acurácia de 78% na validação |
 
-Em construção: segmentação de clientes (RFM + clusterização) e sistema de recomendação.
+Em construção: sistema de recomendação.
 
 `comum/estilo.py` concentra o padrão visual compartilhado pelos projetos.
 
