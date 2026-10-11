@@ -10,7 +10,7 @@ Projetos de ponta a ponta com dados públicos. Cada pasta traz um notebook execu
 | [Sistema de recomendação](Sistema_Recomendacao) | Recomendação top-N | EASE implementado do zero, decaimento temporal, híbrido, bootstrap pareado | Híbrido supera a lista do que está em alta e mostra 16× mais do catálogo |
 | [House Prices](Houses) | Regressão (Kaggle) | XGBoost | RMSLE de 0,142 na validação |
 | [Playground S4E6](playground) | Classificação multiclasse (Kaggle) | Random Forest | Acurácia de 82,8% na validação |
-| [Spaceship Titanic](Spaceship%20Titanic) | Classificação binária (Kaggle) | Random Forest | Acurácia de 78% na validação |
+| [Spaceship Titanic](Spaceship%20Titanic) | Classificação binária (Kaggle) | Engenharia de variáveis, pipeline sem vazamento, gradient boosting, importância por permutação | Acurácia de 81,1% em validação cruzada, contra 78,5% da versão anterior |
 
 `comum/estilo.py` concentra o padrão visual compartilhado pelos projetos.
 
