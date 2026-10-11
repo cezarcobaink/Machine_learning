@@ -21,4 +21,4 @@ Em [`kaggle/`](kaggle): exercícios de competição, com foco em pré-processame
 
 `comum/estilo.py` concentra o padrão visual compartilhado pelos projetos.
 
-Outros projetos: [Previsão de demanda — Olist](https://github.com/cezarcobaink/previsao-demanda-olist) · [DataScience](https://github.com/cezarcobaink/DataScience) · Portfólio: [cezarcobaink.github.io/WebSite](https://cezarcobaink.github.io/WebSite/)
+Outros projetos: [Inferência causal](https://github.com/cezarcobaink/inferencia-causal) · [Previsão de demanda — Olist](https://github.com/cezarcobaink/previsao-demanda-olist) · [DataScience](https://github.com/cezarcobaink/DataScience) · Portfólio: [cezarcobaink.github.io/WebSite](https://cezarcobaink.github.io/WebSite/)
